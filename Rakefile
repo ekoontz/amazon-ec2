@@ -7,9 +7,9 @@ begin
     gem.name = "amazon-ec2"
     gem.summary = %Q{Amazon EC2 Ruby Gem}
     gem.description = %Q{A Ruby library for accessing the Amazon Web Services EC2, ELB, RDS, Cloudwatch, and Autoscaling APIs.}
-    gem.email = "glenn@rempe.us"
-    gem.homepage = "http://github.com/grempe/amazon-ec2"
-    gem.authors = ["Glenn Rempe"]
+    gem.email = "ekoontz@hiro-tan.org"
+    gem.homepage = "http://github.com/ekoontz/amazon-ec2"
+    gem.authors = ["Glenn Rempe", "Eugene Koontz"]
     gem.rdoc_options = ["--title", "amazon-ec2 documentation", "--line-numbers", "--main", "README.rdoc"]
     gem.rubyforge_project = 'amazon-ec2'
     gem.add_dependency('xml-simple', '>= 1.0.12')
